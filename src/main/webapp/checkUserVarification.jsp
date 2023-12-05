@@ -23,7 +23,10 @@
 
                     <!-- Email Confirmation -->
                     <li>
+                        
+                        <h2 style="color:white; text-align: center;">Enter Code For Varification</h2>
                         <div>
+                            
                             <input id="email2" maxlength="250" name="code" placeholder="Enter code" required="" type="text" value="">
                         </div>
                     </li>
