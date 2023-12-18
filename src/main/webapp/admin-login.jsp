@@ -8,14 +8,10 @@
     
      UserRegister user = (UserRegister) session.getAttribute("user-admin");
 
-    if (user != null) {
     
         if(code==null || !code.trim().equals("majidCode12345") ){
            response.sendRedirect("index.jsp");
-    }
-    }
-    
-     
+    }   
     
     %>
 
